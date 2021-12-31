@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/drawable-v24/divider.xml" value="0.10416666666666667" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/drawable/badge_bg.xml" value="0.20052083333333334" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/drawable/bg_searchview.xml" value="0.10208333333333333" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/drawable/divider.xml" value="0.10416666666666667" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/drawable/menu_itembg.xml" value="0.26979166666666665" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/drawable/shape.xml" value="0.10416666666666667" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_food_detail.xml" value="0.1" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_foods.xml" value="0.13138686131386862" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_left_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_my.xml" value="0.264" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_my_base_info.xml" value="0.10400000000000001" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_my_sc_food.xml" value="0.1" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_rank.xml" value="0.264" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/activity_reg.xml" value="0.12" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/menu.xml" value="0.176" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/menu_item.xml" value="0.2" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/ranklist_item.xml" value="0.1" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/sclist_item.xml" value="0.536" />
+        <entry key="..\:/itfxq_menus_app/app/src/main/res/layout/tjlist_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

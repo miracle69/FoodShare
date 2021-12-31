@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/menu_itembg"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/foodPicIv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/foodPicIv"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/foodNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="回锅肉"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tasteTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/foodNameTv"
+            android:text="爽口"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/foodTypeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#ff5339"
+            android:text="类型:早餐"
+            android:layout_below="@+id/foodNameTv"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/yclTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#ff5339"
+            android:singleLine="true"
+            android:maxEms="10"
+            android:layout_below="@+id/foodTypeTv"
+            android:text="材料: xxxx111111111111111111111111111111111"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

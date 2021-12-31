@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical">
+
+        <!-- 排行榜start -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- 文字start-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="20dp"
+                    android:text="受欢迎排行榜"
+                    android:textSize="20sp">
+
+                </TextView>
+
+            </LinearLayout>
+            <!-- 文字end-->
+
+            <!--排行榜start-->
+            <LinearLayout
+                android:id="@+id/tjlistView_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <ListView
+                    android:id="@+id/ranklistLv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </ListView>
+
+            </LinearLayout>
+            <!--排行榜end-->
+
+        </LinearLayout>
+
+        <!-- 排行榜end -->
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [],
+  "properties": [
+    {
+      "name": "itfxq.upload.path",
+      "description": "Description for itfxq.upload.path.",
+      "type": "java.lang.String"
+    }
+  ]
+}
